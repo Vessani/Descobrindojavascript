@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenando com JavaScript e DOM</title>
+</head>
+<body>
+    <h1>Ordenando com JavaScript e DOM</h1>
+
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor">
+    <button onclick="add()">Adicionar</button>
+
+    <label for="algoritmo">Selecione um algoritmo:</label>
+    <select id="algoritmo">
+        <option value="bubbleSort" selected>Bubble Sort</option>
+        <option value="selectionSort">Selection Sort</option>
+        <option value="quickSort">Quick Sort</option>
+    </select>
+
+    <button onclick="ordenar()">Ordenar</button>
+    <button onclick="misturar()">Misturar</button>
+
+    <ul id="valores"></ul>
+
+    <script src="ordenando.js"></script>
+</body>
+</html>
